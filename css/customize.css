@@ -1,0 +1,76 @@
+/* 
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;   */
+
+/* navbar */
+
+.logo { width: 270px;}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  float: left;
+}
+
+.logo .top{
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 7px;
+  font-variant: small-caps;
+}
+
+.logo .top span {
+  color: red;
+  font-variant: none;
+  font-size: 10px;
+  vertical-align: super;
+}
+
+.login { 
+  font-family: 'Open Sans', sans-serif;
+  float: right;
+  font-size: 12.5px;
+  width: 150px;
+  margin-top: -15px;
+}
+
+.login .links {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/* section one */
+
+#one {
+  padding: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/home.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+#one h1 {
+  color: #FFFFFF;
+  font-size: 64px;
+  padding-top: 35px;
+}
+
+#one .subtitle {
+  color: #FF9900;
+  font-size: 28px;
+  padding: 20px 0 110px 0;
+}
+
+#one .button:hover { color: #FFFFFF; }
+
+#one .row .success {
+  border-radius: 20px;
+}
+
+#one h6 {
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+  padding: 20px 0;
+}
