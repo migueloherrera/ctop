@@ -243,6 +243,45 @@
   padding-bottom: 20px;
 }
 
+/* section six */
+
+#six {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#six h6 {
+  font-family: 'Open Sans', sans-serif;
+  color: #999999;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  padding-top: 60px;
+}
+
+#six .button {
+  font-family: 'Open Sans Condensed', sans-serif;
+  border-radius: 20px;
+}
+
+#six .button:hover { color: #FFFFFF; }
+
+/* footer */
+
+footer {
+  background: #222222;
+  text-align: center;
+  padding: 20px 0;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 0.8em;
+  line-height: 1.5;
+}
+
+footer a {
+  display: inline-block;
+  margin: 0 2.5em .5em;
+}
+
 /* media queries */
 
 @media (min-width: 768px) {
