@@ -83,6 +83,8 @@
   border-bottom: 1px solid #EFEFEF;
 }
 
+/* section two */
+
 #two {
   font-family: 'Open Sans Condensed', sans-serif;
   margin: 0 auto;
@@ -132,4 +134,64 @@
   font-size: 12px;
   line-height: 1.8;
   color: #666666;
+}
+
+/* section three */
+
+#three {
+  background: url('../images/fondo.png');
+  padding-bottom: 50px;
+}
+
+#three .row {
+  text-align: center;
+}
+
+#three .title {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  color: #EEEEEE;
+  width: 65%;
+  margin: 70px 0;
+}
+
+#three .box {
+  width: 100%;
+  max-width: 600px;
+  min-height: 100px;
+  padding: 20px 40px;
+  margin: 0 auto;
+}
+
+#three .box:hover {
+  background: linear-gradient( rgba(125, 125, 125, 0.1), rgba(125, 125, 125, 0.1) );
+  cursor: pointer;
+}
+
+.small-icons { 
+  float: left;
+}
+
+.small-icons img {
+  width: 80px;
+}
+
+.sub-box {
+  width: 80%;
+  float: right;
+}
+
+.category {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2em;
+  color: #CFCFCF;
+  padding: 5px 0 10px 0;
+}
+
+.description {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #9F9F9F;
+  padding-top: 10px;
 }
